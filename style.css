@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+   
+    height: 100%;
+    width: 100%;
+    background-color: rgb(224, 223, 223);
+   
+}
+#nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+   align-items: center;
+   justify-content: flex-end;
+   gap: 20px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+#center{
+   
+    width:100% ;
+    /* background-color: red; */
+    padding: 40px 80px;
+}
+#center h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 85px;
+}
+#center-in{
+    /* background-color: red; */
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+#right{
+    width: 20%;
+}
+.elem{
+    /* background-color: yellow; */
+    padding: 20px 0px;
+    
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+    padding-right: 10px;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.elem:hover i{
+    opacity: 1;
+
+}
+.elem:hover{
+    background-color: rgb(195, 194, 193);
+}
+#bottom{
+    height: 45%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1613631531000-559b628c8582?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 45%;
+}
