@@ -38,7 +38,7 @@ html,body{
     font-weight: 500;
 }
 #center{
-   
+    /* height: 600px; */
     width:100% ;
     /* background-color: red; */
     padding: 40px 80px;
@@ -94,7 +94,7 @@ html,body{
     background-color: rgb(195, 194, 193);
 }
 #bottom{
-    height: 45%;
+    height: 50vh;
     width: 100%;
     background-color: red;
     background-image: url(https://images.unsplash.com/photo-1613631531000-559b628c8582?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
